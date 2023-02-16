@@ -1,0 +1,124 @@
+
+@media screen and (min-width: 1200px) {
+  .container {max-width: 1128px;}
+  .page-header {
+    padding-bottom: 28px;
+  }
+  .logo {
+    margin-right: 76px;
+    font-weight: 800;
+    font-size: 18px;
+  }
+.mail-phone {
+  display: flex;
+  gap:40px;
+}
+.mail-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+margin-bottom: 0;
+}
+.phone-number {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+  .hero {
+    padding: 188px 0;
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero-bg/people-office.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero-bg/people-office2x.jpg);
+  }
+}
+  .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 494px;
+    margin-bottom: 40px;
+  }
+
+  /* section2 */
+  .qualities-list {
+    display: flex;
+    column-gap: 24px;
+  }
+  .qualities-list-items {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .section-qualities {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .container.container-mini {
+    padding: 0px;
+  }
+  .text-subtitle {
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+
+  .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  .team-list {
+    padding-top: 120px;
+    padding-bottom: 120px;}
+  
+  .container.container-mobile {
+    max-width: 1128px;
+  }
+  .list-img-employee {
+    column-gap: 24px;
+  }
+  .photo-employee {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.clients {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.list-clients-icons {
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+    
+  }
+  .list-clients-icons-teams {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+
+  .footer{
+    margin-right: 120px;
+    margin-left: 0;
+}
+
+.part-footer {
+  padding: 100px 0;
+}
+
+.subscribe-footer {
+  margin-left: auto;
+}
+.modal {
+  width:408px;
+}
+
+}
