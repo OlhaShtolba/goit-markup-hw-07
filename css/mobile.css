@@ -1,9 +1,6 @@
 @media screen and (min-width: 480px) {
     .container {max-width: 428px;}
-    /* .container.container-mobile {
-        max-width: 264px;
-        padding: 0;
-    } */
+  
     .email-footer {
         width: 396px;
 }
