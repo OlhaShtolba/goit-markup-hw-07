@@ -99,12 +99,12 @@
     padding-right: 0;
     max-width: 768px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/hero-bg/people-office.jpg);
+      url(../images/hero-bg/hero-desktop.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/hero-bg/people-office2x.jpg);
+        url(../images/hero-bg/hero-desktop2x.jpg);
     }
     .main-title {
       font-size: 56px;
@@ -119,7 +119,7 @@
       row-gap: 72px;
     }
     .subtitle {
-      text-align: center;
+      text-align: start;
     }
     .qualities-list-items {
       flex-basis: calc((100% - 48px) / 2);
@@ -158,9 +158,9 @@
     }
     .footer-content {
       display: flex;
-      justify-content: start;
+      justify-content: center;
       flex-wrap: wrap;
-      column-gap:24px;
+      column-gap: 24px;
       row-gap: 72px;
       align-items: flex-start;
     }
@@ -176,35 +176,33 @@
       margin-right: 0;
       margin-bottom: 0px;
     }
- .text-footer {
-  max-width: 264px;
-  margin-left: 0;
-  margin-right: 0;
-  text-align: start;
- }
-.text-footer-1 {
-  text-align: start;
-}
-.list-traling-icons-footer {
-  justify-content: start;
-  margin-bottom: 0;
-}
-.text-footer-2 {
-  text-align: start;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 16px;
-}
-.email-footer {
-  max-width: 264px;
-  min-width: 0;
-}
-.modal-footer {
-  flex-direction: row;
-  column-gap: 24px;
-  row-gap: 0;
-}
-
-
+    .text-footer {
+      max-width: 264px;
+      margin-left: 0;
+      margin-right: 0;
+      text-align: start;
+    }
+    .text-footer-1 {
+      text-align: start;
+    }
+    .list-traling-icons-footer {
+      justify-content: start;
+      margin-bottom: 0;
+    }
+    .text-footer-2 {
+      text-align: start;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+    .email-footer {
+      max-width: 264px;
+      min-width: 0;
+    }
+    .modal-footer {
+      flex-direction: row;
+      column-gap: 24px;
+      row-gap: 0;
+    }
   }
 }
