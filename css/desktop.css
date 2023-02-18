@@ -115,19 +115,22 @@
     width: calc((100% - 120px) / 6);
     height: 88px;
   }
-
-  .footer {
-    margin-right: 120px;
-    margin-left: 0;
-  }
-
   .part-footer {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
-  .subscribe-footer {
-    margin-left: auto;
+  .footer-content {
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+    column-gap:24px;
+    row-gap: 0px;
+    align-items: flex-start;
+    justify-content: space-between;
   }
+
+  
   .modal {
     width: 408px;
   }
