@@ -140,20 +140,35 @@ text-align: start;
   margin-right: 0;
   text-align: start;
 }
-.part-footer-2{
+.text-footer {
   text-align: start;
+}
+.text-footer-1 {
+  text-align: start;
+}
+.text-footer-2 {
+  text-align: start;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 16px;
+}
+.part-footer-2 {
+  text-align: left;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0px;
 }
-
-  .email-footer {
-    width: 264px;
-  }
+.email-footer {
+  max-width: 264px;
+  min-width: 0;
+}
   .modal-footer {
-    flex-direction: row;
+   flex-direction: row;
+   column-gap: 24px;
     row-gap: 24px;
-    column-gap: 24px;
+  }
+  .footer-button-subscribe {
+    display: flex;
   }
   .modal {
     width: 408px;
